@@ -16,5 +16,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.2.0"
+  },
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.7"
   }
 }
