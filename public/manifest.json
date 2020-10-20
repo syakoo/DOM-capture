@@ -10,26 +10,18 @@
     "128": "icons/icon_128.png"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {
     "default_title": "Ge Ss",
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "storage"
-  ],
+  "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": [
-        "https://github.com/*"
-      ],
-      "js": [
-        "contentScript.js"
-      ]
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["contentScript.js"]
     }
   ]
 }
