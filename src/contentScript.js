@@ -4,7 +4,6 @@ import html2canavs from "html2canvas";
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   downloadTargetNode(msg);
-
   sendResponse({});
   return true;
 });

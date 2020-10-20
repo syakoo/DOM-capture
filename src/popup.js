@@ -9,7 +9,6 @@
   submitBtn.addEventListener(
     "click",
     () => {
-      console.log("hi");
       const targetNodeTxt = selectorInput.value;
       console.log({ targetNodeTxt });
       if (!targetNodeTxt) {
