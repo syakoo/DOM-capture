@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Ge Ss
+# <img src="public/icons/icon_48.png" width="45" align="left"> DOM Capture
 
 My Chrome Extension
 
