@@ -23,4 +23,4 @@ $ npm run build
 
 5. Click `Load unpacked`
 
-6. Find and select the build file of the app.
+6. Find and select the build dir of the app.
