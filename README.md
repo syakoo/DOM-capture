@@ -2,16 +2,25 @@
 
 My Chrome Extension
 
-## Features
+## Usage
 
-- Feature 1
-- Feature 2
+1. Clone this repo
+```bash
+$ git clone <this repository url>
+```
 
-## Install
+2. Install dependecies
+```bash
+$ npm install
+```
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
+3. Build it
+```bash
+$ npm run build
+```
 
-## Contribution
+4. Go to `chrome://extensions/` and activate `Developer Mode`
 
-Suggestions and pull requests are welcomed!.
+5. Click `Load unpacked`
 
+6. Find and select the build file of the app.
